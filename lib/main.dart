@@ -4,13 +4,8 @@ import 'package:studyrvpd/models/auth_state.dart';
 import 'package:studyrvpd/views/home_page.dart';
 import 'package:studyrvpd/views/login_page.dart';
 
-
 void main() {
-  runApp(
-    const ProviderScope(
-      child: MyApp( ),
-    ),
-  );
+  runApp(const ProviderScope(child: MyApp()));
 }
 
 class MyApp extends ConsumerWidget {
